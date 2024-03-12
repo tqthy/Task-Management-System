@@ -10,9 +10,7 @@ import { TasksRepository } from './tasks.repository';
 export class TasksService {
   constructor(private tasksRepository: TasksRepository) {}
 
-  // getAllTasks(): Task[] {
-  //     return this.tasks;
-  // }
+
 
   // getTasksWithFilters(filterDto: GetTasksFilterDto): Task[] {
   //     const { status, search } = filterDto;
